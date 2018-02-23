@@ -29,8 +29,8 @@ PUT twitter/_mapping/_doc <3>
 --------------------------------------------------
 // CONSOLE
 <1> <<indices-create-index,Creates an index>> called `twitter` without any type mapping.
-<2> Uses the PUT mapping API to add a new mapping type called `user`.
-<3> Uses the PUT mapping API to add a new field called `email` to the `user` mapping type.
+<2> Uses the PUT mapping API to add a new mapping type called `_doc`.
+<3> Uses the PUT mapping API to add a new field called `email` to the `_doc` mapping type.
 
 More information on how to define type mappings can be found in the
 <<mapping,mapping>> section.
